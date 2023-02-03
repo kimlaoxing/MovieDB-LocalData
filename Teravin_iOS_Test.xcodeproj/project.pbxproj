@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C187863334C6668744E4726F /* Pods_Teravin_iOS_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C2BD9756D4E88D0BE3396DF /* Pods_Teravin_iOS_Test.framework */; };
+		EA1E647F2956B1C200A83D34 /* MovieListResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1E647E2956B1C200A83D34 /* MovieListResponse.swift */; };
+		EA1E64822956B22D00A83D34 /* KeyedDecodingContainerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1E64812956B22D00A83D34 /* KeyedDecodingContainerExtension.swift */; };
+		EA1E64862956B28A00A83D34 /* PopularMovieRemoteData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1E64852956B28A00A83D34 /* PopularMovieRemoteData.swift */; };
+		EA1E64882956B2DB00A83D34 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1E64872956B2DB00A83D34 /* APIService.swift */; };
+		EA1E648A2956B40200A83D34 /* PopularMovieRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1E64892956B40200A83D34 /* PopularMovieRepository.swift */; };
+		EA1E648C2956B49C00A83D34 /* PopularMovieDomain.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1E648B2956B49C00A83D34 /* PopularMovieDomain.swift */; };
+		EA1E648E2956B4FF00A83D34 /* ListPopularMovieViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1E648D2956B4FF00A83D34 /* ListPopularMovieViewModel.swift */; };
+		EA1E64902956B51700A83D34 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1E648F2956B51700A83D34 /* Observable.swift */; };
+		EA1E64952956B6CB00A83D34 /* PopularMovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1E64942956B6CB00A83D34 /* PopularMovieTableViewCell.swift */; };
+		EA1E64972956B73B00A83D34 /* UIimageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1E64962956B73B00A83D34 /* UIimageViewExtension.swift */; };
+		EA1E64992956B75A00A83D34 /* Padding.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1E64982956B75A00A83D34 /* Padding.swift */; };
+		EA1E649B2956B8C900A83D34 /* BaseViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1E649A2956B8C900A83D34 /* BaseViewState.swift */; };
+		EA1E649F2956C13A00A83D34 /* UITabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1E649E2956C13A00A83D34 /* UITabBarController.swift */; };
+		EA1E64A12956C15400A83D34 /* SafeAreaInset.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1E64A02956C15400A83D34 /* SafeAreaInset.swift */; };
+		EA1E64CA2956DECD00A83D34 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1E64C92956DECD00A83D34 /* Reachability.swift */; };
+		EA1E64CC2956DF8700A83D34 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1E64CB2956DF8700A83D34 /* UIViewControllerExtension.swift */; };
+		EA1E64CE2956E34100A83D34 /* PopularMovieLocalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1E64CD2956E34100A83D34 /* PopularMovieLocalData.swift */; };
+		EA4F18132956ABF800607271 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4F18122956ABF800607271 /* AppDelegate.swift */; };
+		EA4F18152956ABF800607271 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4F18142956ABF800607271 /* SceneDelegate.swift */; };
+		EA4F18172956ABF800607271 /* ListPopularMovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4F18162956ABF800607271 /* ListPopularMovieViewController.swift */; };
+		EA4F181C2956ABFB00607271 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA4F181B2956ABFB00607271 /* Assets.xcassets */; };
+		EA4F181F2956ABFB00607271 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA4F181D2956ABFB00607271 /* LaunchScreen.storyboard */; };
+		EA4F18272956AC6F00607271 /* ExtensionSceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4F18262956AC6F00607271 /* ExtensionSceneDelegate.swift */; };
+		EABD96262956E81100E18318 /* MovieListLocalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABD96252956E81100E18318 /* MovieListLocalModel.swift */; };
+		EABD96282956EC4000E18318 /* Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABD96272956EC4000E18318 /* Optional.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		088EFC1FA2199799C1573F68 /* Pods-Teravin_iOS_Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Teravin_iOS_Test.debug.xcconfig"; path = "Target Support Files/Pods-Teravin_iOS_Test/Pods-Teravin_iOS_Test.debug.xcconfig"; sourceTree = "<group>"; };
+		6C2BD9756D4E88D0BE3396DF /* Pods_Teravin_iOS_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Teravin_iOS_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8027E544CEBAD05C172A012 /* Pods-Teravin_iOS_Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Teravin_iOS_Test.release.xcconfig"; path = "Target Support Files/Pods-Teravin_iOS_Test/Pods-Teravin_iOS_Test.release.xcconfig"; sourceTree = "<group>"; };
+		EA1E647E2956B1C200A83D34 /* MovieListResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListResponse.swift; sourceTree = "<group>"; };
+		EA1E64812956B22D00A83D34 /* KeyedDecodingContainerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyedDecodingContainerExtension.swift; sourceTree = "<group>"; };
+		EA1E64852956B28A00A83D34 /* PopularMovieRemoteData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularMovieRemoteData.swift; sourceTree = "<group>"; };
+		EA1E64872956B2DB00A83D34 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		EA1E64892956B40200A83D34 /* PopularMovieRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularMovieRepository.swift; sourceTree = "<group>"; };
+		EA1E648B2956B49C00A83D34 /* PopularMovieDomain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularMovieDomain.swift; sourceTree = "<group>"; };
+		EA1E648D2956B4FF00A83D34 /* ListPopularMovieViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPopularMovieViewModel.swift; sourceTree = "<group>"; };
+		EA1E648F2956B51700A83D34 /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		EA1E64942956B6CB00A83D34 /* PopularMovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularMovieTableViewCell.swift; sourceTree = "<group>"; };
+		EA1E64962956B73B00A83D34 /* UIimageViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIimageViewExtension.swift; sourceTree = "<group>"; };
+		EA1E64982956B75A00A83D34 /* Padding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Padding.swift; sourceTree = "<group>"; };
+		EA1E649A2956B8C900A83D34 /* BaseViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewState.swift; sourceTree = "<group>"; };
+		EA1E649E2956C13A00A83D34 /* UITabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITabBarController.swift; sourceTree = "<group>"; };
+		EA1E64A02956C15400A83D34 /* SafeAreaInset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaInset.swift; sourceTree = "<group>"; };
+		EA1E64C92956DECD00A83D34 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		EA1E64CB2956DF8700A83D34 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		EA1E64CD2956E34100A83D34 /* PopularMovieLocalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularMovieLocalData.swift; sourceTree = "<group>"; };
+		EA4F180F2956ABF800607271 /* Teravin_iOS_Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Teravin_iOS_Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA4F18122956ABF800607271 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA4F18142956ABF800607271 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EA4F18162956ABF800607271 /* ListPopularMovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPopularMovieViewController.swift; sourceTree = "<group>"; };
+		EA4F181B2956ABFB00607271 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA4F181E2956ABFB00607271 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA4F18202956ABFB00607271 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA4F18262956AC6F00607271 /* ExtensionSceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionSceneDelegate.swift; sourceTree = "<group>"; };
+		EABD96252956E81100E18318 /* MovieListLocalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListLocalModel.swift; sourceTree = "<group>"; };
+		EABD96272956EC4000E18318 /* Optional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Optional.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA4F180C2956ABF800607271 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C187863334C6668744E4726F /* Pods_Teravin_iOS_Test.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		939E2530D3A72649940A0A08 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				088EFC1FA2199799C1573F68 /* Pods-Teravin_iOS_Test.debug.xcconfig */,
+				A8027E544CEBAD05C172A012 /* Pods-Teravin_iOS_Test.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EA1E64802956B22700A83D34 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				EA1E64812956B22D00A83D34 /* KeyedDecodingContainerExtension.swift */,
+				EA1E64872956B2DB00A83D34 /* APIService.swift */,
+				EA1E648F2956B51700A83D34 /* Observable.swift */,
+				EA1E64962956B73B00A83D34 /* UIimageViewExtension.swift */,
+				EA1E64982956B75A00A83D34 /* Padding.swift */,
+				EA1E649A2956B8C900A83D34 /* BaseViewState.swift */,
+				EA1E64A02956C15400A83D34 /* SafeAreaInset.swift */,
+				EA1E64C92956DECD00A83D34 /* Reachability.swift */,
+				EA1E64CB2956DF8700A83D34 /* UIViewControllerExtension.swift */,
+				EABD96272956EC4000E18318 /* Optional.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		EA1E64832956B24A00A83D34 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EA1E647E2956B1C200A83D34 /* MovieListResponse.swift */,
+				EABD96252956E81100E18318 /* MovieListLocalModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EA1E64842956B25B00A83D34 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				EA4F18122956ABF800607271 /* AppDelegate.swift */,
+				EA4F18142956ABF800607271 /* SceneDelegate.swift */,
+				EA4F18262956AC6F00607271 /* ExtensionSceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		EA1E64932956B6A200A83D34 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EA1E64942956B6CB00A83D34 /* PopularMovieTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EA1E649C2956C10C00A83D34 /* ListPopularMovie */ = {
+			isa = PBXGroup;
+			children = (
+				EAC20A1C2956AEDE00A3D521 /* Domain */,
+				EAC20A1B2956AEB700A3D521 /* Data */,
+				EAC20A1A2956AEB300A3D521 /* Presentation */,
+			);
+			path = ListPopularMovie;
+			sourceTree = "<group>";
+		};
+		EA1E649D2956C11800A83D34 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				EA1E649E2956C13A00A83D34 /* UITabBarController.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		EA4F18062956ABF800607271 = {
+			isa = PBXGroup;
+			children = (
+				EA4F18112956ABF800607271 /* Teravin_iOS_Test */,
+				EA4F18102956ABF800607271 /* Products */,
+				939E2530D3A72649940A0A08 /* Pods */,
+				EAB0BF3C66DB7D80730CD087 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EA4F18102956ABF800607271 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA4F180F2956ABF800607271 /* Teravin_iOS_Test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA4F18112956ABF800607271 /* Teravin_iOS_Test */ = {
+			isa = PBXGroup;
+			children = (
+				EA1E64842956B25B00A83D34 /* Delegate */,
+				EA1E64802956B22700A83D34 /* Helper */,
+				EAC20A192956AEAD00A3D521 /* Feature */,
+				EA4F181B2956ABFB00607271 /* Assets.xcassets */,
+				EA4F181D2956ABFB00607271 /* LaunchScreen.storyboard */,
+				EA4F18202956ABFB00607271 /* Info.plist */,
+			);
+			path = Teravin_iOS_Test;
+			sourceTree = "<group>";
+		};
+		EAB0BF3C66DB7D80730CD087 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C2BD9756D4E88D0BE3396DF /* Pods_Teravin_iOS_Test.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EAC20A192956AEAD00A3D521 /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				EA1E649D2956C11800A83D34 /* TabBar */,
+				EA1E649C2956C10C00A83D34 /* ListPopularMovie */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		EAC20A1A2956AEB300A3D521 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				EA1E64932956B6A200A83D34 /* View */,
+				EA4F18162956ABF800607271 /* ListPopularMovieViewController.swift */,
+				EA1E648D2956B4FF00A83D34 /* ListPopularMovieViewModel.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		EAC20A1B2956AEB700A3D521 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				EA1E64832956B24A00A83D34 /* Model */,
+				EA1E64852956B28A00A83D34 /* PopularMovieRemoteData.swift */,
+				EA1E64CD2956E34100A83D34 /* PopularMovieLocalData.swift */,
+				EA1E64892956B40200A83D34 /* PopularMovieRepository.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		EAC20A1C2956AEDE00A3D521 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				EA1E648B2956B49C00A83D34 /* PopularMovieDomain.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA4F180E2956ABF800607271 /* Teravin_iOS_Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA4F18232956ABFB00607271 /* Build configuration list for PBXNativeTarget "Teravin_iOS_Test" */;
+			buildPhases = (
+				DFF415FA1102B0B372C9396C /* [CP] Check Pods Manifest.lock */,
+				EA4F180B2956ABF800607271 /* Sources */,
+				EA4F180C2956ABF800607271 /* Frameworks */,
+				EA4F180D2956ABF800607271 /* Resources */,
+				A212C6F735F647C62355D499 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Teravin_iOS_Test;
+			productName = Teravin_iOS_Test;
+			productReference = EA4F180F2956ABF800607271 /* Teravin_iOS_Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA4F18072956ABF800607271 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					EA4F180E2956ABF800607271 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = EA4F180A2956ABF800607271 /* Build configuration list for PBXProject "Teravin_iOS_Test" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA4F18062956ABF800607271;
+			productRefGroup = EA4F18102956ABF800607271 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA4F180E2956ABF800607271 /* Teravin_iOS_Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA4F180D2956ABF800607271 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA4F181F2956ABFB00607271 /* LaunchScreen.storyboard in Resources */,
+				EA4F181C2956ABFB00607271 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A212C6F735F647C62355D499 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Teravin_iOS_Test/Pods-Teravin_iOS_Test-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Teravin_iOS_Test/Pods-Teravin_iOS_Test-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Teravin_iOS_Test/Pods-Teravin_iOS_Test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFF415FA1102B0B372C9396C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Teravin_iOS_Test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA4F180B2956ABF800607271 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA1E649F2956C13A00A83D34 /* UITabBarController.swift in Sources */,
+				EA1E647F2956B1C200A83D34 /* MovieListResponse.swift in Sources */,
+				EABD96282956EC4000E18318 /* Optional.swift in Sources */,
+				EA1E64CA2956DECD00A83D34 /* Reachability.swift in Sources */,
+				EA4F18172956ABF800607271 /* ListPopularMovieViewController.swift in Sources */,
+				EA1E64CE2956E34100A83D34 /* PopularMovieLocalData.swift in Sources */,
+				EA1E64862956B28A00A83D34 /* PopularMovieRemoteData.swift in Sources */,
+				EA1E648E2956B4FF00A83D34 /* ListPopularMovieViewModel.swift in Sources */,
+				EA1E64952956B6CB00A83D34 /* PopularMovieTableViewCell.swift in Sources */,
+				EA1E649B2956B8C900A83D34 /* BaseViewState.swift in Sources */,
+				EA1E64A12956C15400A83D34 /* SafeAreaInset.swift in Sources */,
+				EA1E64902956B51700A83D34 /* Observable.swift in Sources */,
+				EA4F18272956AC6F00607271 /* ExtensionSceneDelegate.swift in Sources */,
+				EABD96262956E81100E18318 /* MovieListLocalModel.swift in Sources */,
+				EA1E64822956B22D00A83D34 /* KeyedDecodingContainerExtension.swift in Sources */,
+				EA1E64CC2956DF8700A83D34 /* UIViewControllerExtension.swift in Sources */,
+				EA1E64972956B73B00A83D34 /* UIimageViewExtension.swift in Sources */,
+				EA4F18132956ABF800607271 /* AppDelegate.swift in Sources */,
+				EA1E64882956B2DB00A83D34 /* APIService.swift in Sources */,
+				EA1E64992956B75A00A83D34 /* Padding.swift in Sources */,
+				EA1E648A2956B40200A83D34 /* PopularMovieRepository.swift in Sources */,
+				EA1E648C2956B49C00A83D34 /* PopularMovieDomain.swift in Sources */,
+				EA4F18152956ABF800607271 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EA4F181D2956ABFB00607271 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA4F181E2956ABFB00607271 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA4F18212956ABFB00607271 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA4F18222956ABFB00607271 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA4F18242956ABFB00607271 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 088EFC1FA2199799C1573F68 /* Pods-Teravin_iOS_Test.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YD9XNPTQUJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Teravin_iOS_Test/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.personal.Teravin-iOS-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA4F18252956ABFB00607271 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8027E544CEBAD05C172A012 /* Pods-Teravin_iOS_Test.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YD9XNPTQUJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Teravin_iOS_Test/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.personal.Teravin-iOS-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA4F180A2956ABF800607271 /* Build configuration list for PBXProject "Teravin_iOS_Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA4F18212956ABFB00607271 /* Debug */,
+				EA4F18222956ABFB00607271 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA4F18232956ABFB00607271 /* Build configuration list for PBXNativeTarget "Teravin_iOS_Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA4F18242956ABFB00607271 /* Debug */,
+				EA4F18252956ABFB00607271 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA4F18072956ABF800607271 /* Project object */;
+}
